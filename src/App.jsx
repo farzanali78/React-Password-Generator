@@ -33,11 +33,11 @@ window.navigator.clipboard.writeText(pass)
 },[pass])
   return (
     <>
-      <h1 className="text-center text-xl font-bold text-white">
+      <h1 className="text-center font-bold mt-3 text-2xl text-white">
         Password Generator
       </h1>
-      <div className="flex justify-center">
-        <div className="text-center rounded-2xl  bg-gray-700 text-white w-[40vw] h-[20vh]">
+      <div className="flex mt-2 justify-center h-screen">
+        <div className="text-center rounded-2xl  bg-gray-700 text-white md:w-[40vw] w-[95vw] h-[20vh]">
           <div className=" w-full  mt-1 rounded h-[5vh]">
             <div className="flex my-5 justify-center ">
               <input
