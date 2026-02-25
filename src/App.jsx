@@ -53,7 +53,7 @@ window.navigator.clipboard.writeText(pass)
               </button>
             </div>
           </div>
-          <div className="flex gap-1.5 justify-center mt-1 text-orange-400">
+          <div className="md:flex gap-1.5 justify-center mt-1 text-orange-400">
             <input
               type="range"
               value={length}
@@ -65,6 +65,9 @@ window.navigator.clipboard.writeText(pass)
               }}
             />
             <label htmlFor="length">Length: {length}</label>
+            <div>
+
+            
             <input
               type="checkbox"
               className="cursor-pointer"
@@ -76,12 +79,13 @@ window.navigator.clipboard.writeText(pass)
             <label htmlFor="char">Numbers</label>
             <input
               type="checkbox"
-              className="cursor-pointer"
+              className="cursor-pointer ml-5 md:ml-2"
               onChange={() => {
                 setChar((prev) => !prev);
               }}
             />
             <label htmlFor="num">Characters</label>
+            </div>
           </div>
         </div>
       </div>
