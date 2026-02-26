@@ -1,16 +1,51 @@
-# React + Vite
+# React Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and dynamic password generator built with React. This project demonstrates the practical use of core React Hooks to create a fast, responsive, and user-friendly password generation tool.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Generate secure, random passwords instantly
 
-## React Compiler
+- Adjustable password length
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Numbers
 
-## Expanding the ESLint configuration
+- Special characters
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- One-click copy to clipboard
+
+- Clean and responsive UI
+
+ ## Built With
+
+- React
+
+- JavaScript (ES6+)
+
+- Tailwind CSS 
+
+## What I Learned
+
+In this project, I explored and implemented key React Hooks:
+
+- useState – For managing password length and options
+
+- useEffect – For handling side effects and dynamic updates
+
+- useCallback – For optimizing performance and preventing unnecessary re-renders
+
+- useRef – For direct DOM access (e.g., copying password to clipboard)
+
+This project strengthened my understanding of state management, component re-rendering, and performance optimization in React.
+
+ ## Future Improvements
+
+- Add password strength indicator
+
+- Add dark/light theme toggle
+
+- Add history of generated passwords
+
+## Project Purpose
+
+This project was built to deepen my understanding of React Hooks and improve my front-end development skills by building a practical and real-world utility application.
